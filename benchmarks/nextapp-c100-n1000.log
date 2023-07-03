@@ -1,0 +1,35 @@
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            3000
+
+Document Path:          /api/pool
+Document Length:        86 bytes
+
+Concurrency Level:      100
+Time taken for tests:   17.583 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      275000 bytes
+HTML transferred:       86000 bytes
+Requests per second:    56.87 [#/sec] (mean)
+Time per request:       1758.330 [ms] (mean)
+Time per request:       17.583 [ms] (mean, across all concurrent requests)
+Transfer rate:          15.27 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.2      0       6
+Processing:    52 1693 325.6   1712    2352
+Waiting:       46 1689 325.0   1710    2352
+Total:         52 1693 325.0   1713    2354
+
+Percentage of the requests served within a certain time (ms)
+  50%   1713
+  66%   1813
+  75%   1904
+  80%   1987
+  90%   2077
+  95%   2118
+  98%   2182
+  99%   2194
+ 100%   2354 (longest request)
